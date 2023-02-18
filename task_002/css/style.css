@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(214, 250, 203);
+    
+}
+
+ul {
+    list-style-type:georgian;
+}
+
+ol {
+    list-style: circle;
+}
+
+img {
+    width: 450px;
+    margin-left: 90px;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+@font-face {
+	font-family: 'Minecraft Title Cyrillic Regular';
+	src: url('../fonts/minecraft_title_cyrillic_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/minecraft_title_cyrillic_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/minecraft_title_cyrillic_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/minecraft_title_cyrillic_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/minecraft_title_cyrillic_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/minecraft_title_cyrillic_regular.svg#minecraft_title_cyrillic_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.bolt {
+    font-family: 'Minecraft Title Cyrillic Regular';
+}
+
+.wrapper {
+    width: 800px;
+    margin: auto;
+}
