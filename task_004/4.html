@@ -1,0 +1,23 @@
+
+-- create
+CREATE TABLE employee (
+  empId INTEGER PRIMARY KEY AUTO_INCREMENT,
+  name TEXT NOT NULL,
+  dept TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO employee(name, dept) VALUES ('Clark', 'Sales');
+INSERT INTO employee(name, dept) VALUES ('Dave', 'Accounting');
+INSERT INTO employee(name, dept) VALUES ('Ava', 'Sales');
+INSERT INTO employee(name, dept) VALUES ('Av12a', 'Sales');
+INSERT INTO employee(name, dept) VALUES ('ev124e', 'Sales');
+INSERT INTO employee(name, dept) VALUES ('66Aveqwa', 'Sales');
+INSERT INTO employee(name, dept) VALUES ('Avqwa', 'Sales');
+INSERT INTO employee(name, dept) VALUES ('Avqwdqwa', 'Sales');
+-- fetch 
+SELECT * 
+FROM employee 
+WHERE name LIKE '%A%' AND dept = 'Sales' AND empId > 2 
+OR name = "Dave"
+ORDER BY name ASC;

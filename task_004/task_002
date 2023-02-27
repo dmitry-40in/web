@@ -1,0 +1,13 @@
+-- create
+CREATE TABLE employee (
+id INTEGER PRIMARY KEY,
+name TEXT NOT NULL,
+age TEXT NOT NULL,
+address TEXT NOT NULL
+);
+-- insert
+INSERT INTO employee VALUES (1, 'Макс', '23', 'Нижний Новгород');
+INSERT INTO employee VALUES (2, 'Саша', '21', 'Нижний Новгород');
+INSERT INTO employee VALUES (3, 'Вика', '34', 'Нижний Новгород');
+INSERT INTO employee VALUES (4, 'Катя', '35', 'Москва');
+INSERT INTO employee VALUES (5, 'Аня', '42', 'Москва');
